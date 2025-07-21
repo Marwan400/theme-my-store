@@ -7,9 +7,16 @@
 #}
 {% extends "layouts.master" %}
 {% block content %}
-    <div style="background-color: red; color: white; padding: 10px; text-align: center;">
-        ✅ هذا تعديل تجريبي من index.twig
-    </div>
+<section class="relative bg-cover bg-center h-[400px] flex items-center justify-center text-white"
+         style="background-image: url('https://via.placeholder.com/1600x400');">
+  <div class="bg-black/50 p-10 rounded-md text-center">
+    <h1 class="text-4xl font-bold mb-4">أهلاً بك في متجرنا</h1>
+    <p class="text-lg mb-6">تسوق تشكيلتنا الجديدة الآن</p>
+    <a href="/collections/all" class="bg-red-600 hover:bg-red-700 transition px-6 py-3 rounded text-white font-semibold">
+      تصفح المنتجات
+    </a>
+  </div>
+</section>
     {% component home %}
 {% endblock %}
 {% block scripts %}
