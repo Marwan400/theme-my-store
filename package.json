@@ -16,6 +16,7 @@
   },
   "author": "Salla",
   "dependencies": {
+    "@babel/runtime": "^7.27.6",
     "@salla.sa/twilight": "^2.12.60",
     "@salla.sa/twilight-tailwind-theme": "^2.12.60",
     "animejs": "^3.2.1",
